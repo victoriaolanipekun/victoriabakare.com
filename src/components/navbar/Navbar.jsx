@@ -1,9 +1,9 @@
 import './navbar.scss'
 
 
-export default function Navbar() {
+export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
-    <div className='navbar'>
+    <div className={'navbar ' + (menuOpen && 'active')}>
       <div className='wrapper'>
         <div className='left-side'>
           <div className='column-one'>
@@ -27,7 +27,11 @@ export default function Navbar() {
           </div>
         </div>
         <div className='right-side'>
-          <div></div>
+          <div className='hamburger' onClick={()=>setMenuOpen(!menuOpen)}>
+            <span className='line-1'></span>
+            <span className='line-2'></span>
+            <span className='line-3'></span>
+          </div>
         </div>
       </div>
     </div>
