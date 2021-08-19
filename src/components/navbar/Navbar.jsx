@@ -1,5 +1,5 @@
 import './navbar.scss'
-
+import logo from '../../Assets/logo.svg'
 
 export default function Navbar({ menuOpen, setMenuOpen }) {
   return (
@@ -15,7 +15,8 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
             </div>
           </div>
           <div className='mid'>
-            <a href='#intro' className='logo'>Victoria Olanipekun </a>
+            
+            <a href='#intro' className='logo'><img src={logo} alt="Logo" /></a>
           </div>
           <div className='column-three'>
             <div className='right'>
