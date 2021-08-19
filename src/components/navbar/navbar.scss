@@ -1,8 +1,58 @@
+@import "../../global.scss";
+
 .navbar {
   width: 100%;
   height: 70px;
   background-color: #984F97;
+  color: $mainColor !important;
   position: fixed;
   top: 0;
   z-index: 2;
+
+  .wrapper {
+    .left-side {
+      padding: 10px 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      justify-content: space-between;
+    
+      .column-one {
+        display: flex;
+        align-items: center;
+        margin-left: 300px;
+        .left {
+          span {
+            margin-right: 30px;
+            font-size: 14px;
+            font-weight: bold;
+          }
+        }
+      }
+    
+      .mid {
+        display: flex;
+        align-items: center;
+        .logo {
+          font-size: 36px;
+          font-weight: 500;
+          color: inherit;
+          text-decoration: none;
+        }
+      }
+      .column-three {
+        display: flex;
+        align-items: center;
+        margin-right: 300px;
+        .right {
+          span {
+            margin-left: 30px;
+            font-size: 14px;
+            font-weight: bold;
+          }
+        }
+      }
+    }
+  } 
 }
+

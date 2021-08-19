@@ -7,16 +7,18 @@
     background-color: lightsalmon;
     position: relative;
     top: 70px;
+
+    scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    scrollbar-width: none; // no scrollbar for firefox
+    &::-webkit-scrollbar {
+      display: none;
+    } // other browsers
 
     > * {
       width: 100vw;
       height: calc(100vh - 70px);
       scroll-snap-align: start; // for snapping the navbar to the different rendering components
-      scrollbar-width: none; // no scrollbar for firefox
-      &::-webkit-scrollbar {
-        display: none;
-      } // other browsers
     }
   }
 }
