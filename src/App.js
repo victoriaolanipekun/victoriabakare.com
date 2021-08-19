@@ -6,7 +6,7 @@ import Hobbies from "./components/hobbies/Hobbies";
 import Contact from "./components/contact/Contact";
 import "./app.scss"
 import { useState } from "react";
-import Menu from "./components/menu/Menu";
+import Menu from "./components/menu/Menu.jsx";
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="app">
       <Navbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
-      {/* <Menu/> */}
+      <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className= "sections">
         <Intro/>
         <Skills/>
