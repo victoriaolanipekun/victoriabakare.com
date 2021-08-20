@@ -4,11 +4,38 @@
 
   .left {
     flex: 0.5;
+    
+    
+    .wrapper {
+      border-radius: 4px;
+      border: 1px solid #ffffff;
+      padding-left: 40px;
+      margin-top: 130px;
+      height: 450px;
+      margin-left: 120px;
+      width: 521px;
+      color: white;
+      h1 {
+        font-size: 48px;
+        margin-top: 80px;
+      }
+      h3 {
+        font-weight: 100;
+        font-size: 24px;
+      }
+    }
   }
   .right {
     flex: 0.53;
-    //background: url('../../Assets/interest.svg');
-    background-repeat: no-repeat;
-    margin-top: 130px;
+    overflow: hidden;
+
+    .imgContainer {
+      height: 700px;
+
+      img {
+        width: 100%;
+        margin-top: 130px;
+      }
+    }
   }
 }
