@@ -1,3 +1,14 @@
 .intro {
-  background-color: lightpink;
+  background-color: #984F97;
+  display: flex;
+
+  .left {
+    flex: 0.5;
+  }
+  .right {
+    flex: 0.53;
+    //background: url('../../Assets/interest.svg');
+    background-repeat: no-repeat;
+    margin-top: 130px;
+  }
 }
