@@ -1,3 +1,33 @@
 .skills {
-  background-color: lightgray;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .h3 {
+    position: absolute;
+    width: 864px;
+    height: 48px;
+    left: 288px;
+    top: 821px;
+
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 36px;
+    color: #000000;
+  }
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    mix-blend-mode: luminosity;
+    
+    .imgContainer {
+      width: 90px;
+      img {
+        width: 30px;
+      }
+    }
+    
+  }
 }
