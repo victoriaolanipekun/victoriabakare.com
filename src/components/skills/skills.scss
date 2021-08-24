@@ -53,13 +53,36 @@
       text-align: center;
       color: #000000;
     }
-    // .test {
-    //   position: absolute;
-    //   width: 253px;
-    //   height: 347px;
-    //   left: 111px;
-    //   top: 1264px;
-    // }
+    h3 {
+      position: absolute;
+      width: 118px;
+      height: 60px;
+      left: 70px;
+      top: 155px;
+
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 30px;
+      text-align: center;
+      color: #000000;
+    }
+    h4 {
+      position: absolute;
+      width: 253px;
+      height: 81px;
+      top: 230px;
+
+      font-style: normal;
+      font-weight: normal;
+      font-size: 16px;
+      line-height: 36px;
+      text-align: center;
+      color: #000000;
+      padding-left: 5px;
+      padding-right: 5px;
+    }
   }
   .service-list {
     position: absolute;
@@ -94,7 +117,7 @@
     position: absolute;
     width: 253px;
     height: 347px;
-    left: 400px;
+    left: 420px;
     top: 1264px;
 
     background: #49B6E2;
@@ -105,10 +128,71 @@
     position: absolute;
     width: 253px;
     height: 347px;
-    left: 414px;
+    left: 434px;
     top: 1277px;
 
     background: #FFFFFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    img {
+      position: absolute;
+      left: 60px;
+      top: 20px;
+    }
+  }
+
+  .service-list-three {
+    position: absolute;
+    width: 253px;
+    height: 347px;
+    left: 734px;
+    top: 1264px;
+
+    background: #7E3BF3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+  .service-list-three-layer {
+    position: absolute;
+    width: 253px;
+    height: 347px;
+    left:  747px;
+    top: 1277px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    img {
+      position: absolute;
+      left: 60px;
+      top: 20px;
+    }
+  }
+  .service-list-four {
+    position: absolute;
+    width: 253px;
+    height: 347px;
+    left: 1046px;
+    top: 1264px;
+
+    background: #F3A841;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+  }
+  .service-list-four-layer {
+    position: absolute;
+    width: 253px;
+    height: 347px;
+    left: 1060px;
+    top: 1277px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    img {
+      position: absolute;
+      left: 60px;
+      top: 20px;
+    }
   }
 }
