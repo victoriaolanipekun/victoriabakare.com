@@ -1,4 +1,103 @@
 .contact {
   background-color: #984F97;
-  height: 70vh !important;
+  height: 100vh !important;
+
+  h1 {
+    position: absolute;
+    width: 539px;
+    height: 114px;
+    left: 451px;
+    margin-top: 120px;
+    font-family: futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .imgContainer {
+    position: absolute;
+    width: 314px;
+    height: 37.64px;
+    left: 564px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: space-evenly;
+  }
+
+  h3 {
+    position: absolute;
+    width: 477px;
+    height: 72px;
+    left: 482px;
+    margin-top: 270px;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .first-name {
+    input {
+      position: absolute;
+      width: 525px;
+      height: 52.88px;
+      left: 458px;
+      margin-top: 390px;
+      font-size: 18px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      border: none;
+    }
+  }
+  .email {
+    input {
+      position: absolute;
+      width: 525px;
+      height: 52.88px;
+      left: 458px;
+      margin-top: 460px;
+      font-size: 18px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      border: none;
+    }
+  }
+  .message {
+    input {
+      position: absolute;
+      width: 525px;
+      height: 128.54px;
+      left: 458px;
+      margin-top: 530px;
+      font-size: 18px;
+      background: #FFFFFF;
+      border-radius: 4px;
+      border: none;
+    }
+  }
+  
+  a {
+    position: absolute;
+    width: 525px;
+    height: 52.88px;
+    left: 458px;
+    margin-top: 680px;
+    font-size: 18px;
+    font-weight: bold;
+    background: #FFFF00;
+    box-shadow: 0px 4px 4px rgba (0 0 0 / 25%);
+    border-radius: 4px;
+    border: none;
+    text-decoration: none;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+    color: #482041;
+  }
 }

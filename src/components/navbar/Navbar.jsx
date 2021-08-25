@@ -8,10 +8,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
         <div className='left-side'>
           <div className='column-one'>
             <div className='left'>
-              <span>Home</span>
+              {/* <span>Home</span> */}
             </div>
             <div className='left'>
-              <span>Portfolio</span>
+              {/* <span>Portfolio</span> */}
             </div>
           </div>
           <div className='mid'>
@@ -19,10 +19,10 @@ export default function Navbar({ menuOpen, setMenuOpen }) {
           </div>
           <div className='column-three'>
             <div className='right'>
-              <span>Blog</span>
+              {/* <span>Blog</span> */}
             </div>
             <div className='right'>
-              <span>Contact</span>
+              {/* <span>Contact</span> */}
             </div>
           </div>
         </div>

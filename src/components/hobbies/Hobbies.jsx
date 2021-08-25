@@ -11,7 +11,7 @@ export default function Hobbies() {
               <h2>Writing ✍🏽</h2>
               <h3>I currently blog on hashnode where I write on technical topics and mental wellbeing in relation to developers. Do stop by and say hello when you do!</h3>
               <div className='button-wrapper'>
-                <button className='button'>READ MY WRITING</button>
+                <a href="https://hashnode.com/@TheCodeChamp" rel="noreferrer" target="_blank">READ MY WRITING</a>
               </div>
             </div>
             <div className="line"></div>
@@ -19,19 +19,10 @@ export default function Hobbies() {
               <h2>Speaking🎙</h2>
               <h3>Speaking is a means of inspiration for me, so  I speak on different social platform on issues related to the tech ecosystem and mental well-being.</h3>
               <div className='button-wrapper'>
-                <button className='button'>CONTACT ME</button>
+                <a href="#contact">CONTACT ME</a>
               </div>
           </div>
           </div>
-
-          {/* <div className="wrapper-one">
-            <h2>Speaking🎙</h2>
-            <h3>I love writing clear and readable code while working on interesting products. I have experience building fullstack applications, having worked with various languages like Python, Django, Javascript, Node.js, React.js and more.</h3>
-            <div className='button-wrapper'>
-              <button className='button'>VIEW IT HERE</button>
-              <button className='button'>VIEW GITHUB REPO</button>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
