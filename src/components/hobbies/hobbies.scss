@@ -1,4 +1,166 @@
 .hobbies {
-  background-color: lightcoral;
+  background-color: #ffffff;
+  display: flex;
+  height: 110vh !important;
+  h1 {
+    position: absolute;
+    width: 539px;
+    height: 114px;
+    left: 451px;
+    top: 4760px;
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #000000;
+  }
+  .hobbies-one {
   
+    .right {
+      display: flex;
+      justify-content: space-between;
+      .wrapper {
+        position: absolute;
+        width: 1196px;
+        height: 419px;
+        left: 122px;
+        top: 4960px;
+  
+        border: 1px solid rgba(80, 80, 90, 0.5);
+        box-sizing: border-box;
+        border-radius: 4px;
+        h2 {
+          position: absolute;
+          width: 322px;
+          height: 55px;
+          left: 285px;
+          top: 100px;
+          
+          font-family: Futura;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 48px;
+          color: #000000;
+        }
+        h3 {
+          position: absolute;
+          width: 477px;
+          height: 215px;
+          left: 285px;
+          top: 170px;
+          
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 36px;
+          color: #000000;
+        }
+        .button-wrapper {
+          display: flex;
+          justify-content: space-between;
+          position: absolute;
+          margin-top: 340px;
+          left: 285px;
+          width: 52%;
+          left: 420px;
+          margin-top: 305px;
+          button {
+            width: 200px;
+            height: 54px;
+            left: 160px;
+            top: 530px;
+  
+            background: #984F97;
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            border-radius: 4px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 36px;
+            color: #ffffff;
+            border: none;
+          }
+        }
+
+        .wrapper-one {
+          position: absolute;
+          width: 477px;
+          height: 170px;
+          left: -220px;
+          top: 0;
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+          text-align: center;
+          color: #000000;
+
+          h2 {
+            position: absolute;
+            width: 322px;
+            height: 55px;
+            left: 360px;
+            top: 100px;
+
+            font-family: Futura;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #000000;
+          }
+        }
+        .line {
+          position: absolute;
+          width: 416px;
+          height: 0px;
+          left:  380px;
+          top: 207px;
+
+          border: 1px solid  rgba(0, 0, 0, 0.2);
+          transform: rotate(90deg);
+        }
+        .wrapper-two {
+          position: absolute;
+          width: 477px;
+          height: 313px;
+          left: 350px;
+          top: 0;
+
+          font-family: DM Sans;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 24px;
+          line-height: 36px;
+          text-align: center;
+          color: #000000;
+
+          h2 {
+            position: absolute;
+            width: 322px;
+            height: 55px;
+            left: 360px;
+            top: 100px;
+
+            font-family: Futura;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 32px;
+            line-height: 48px;
+            text-align: center;
+            color: #000000;
+          }
+        }
+      }
+    }
+  
+  }
 }
