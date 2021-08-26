@@ -5,11 +5,11 @@ export default function Contact() {
     <div className='contact' id='contact'>
       <h1>Contact</h1>
       <div className="imgContainer">
-        <img src={"../../Assets/twitter.jpeg"} alt=""/>
-        <img src={"../../Assets/tiktok.png"} alt=""/>
-        <img src={"../../Assets/linkedin.svg"} alt=""/>
-        <img src={"../../Assets/github.svg"} alt=""/>
-        <img src={"../../Assets/hasnode.svg"} alt=""/>
+      <a href="https://twitter.com/thecodechamp" rel="noreferrer" target="_blank"><img src={"../../Assets/twitter.svg"} alt=""/></a>
+      <a href="https://tiktok.com/@thecodechamp" rel="noreferrer" target="_blank"><img src={"../../Assets/tiktok.svg"} alt=""/></a>
+      <a href="https://www.linkedin.com/in/victoria-olanipekun/" rel="noreferrer" target="_blank"><img src={"../../Assets/linkedin.svg"} alt=""/></a>
+      <a href="https://github.com/victoriaolanipekun" rel="noreferrer" target="_blank"><img src={"../../Assets/github.svg"} alt=""/></a>
+      <a href="https://hashnode.com/@TheCodeChamp" rel="noreferrer" target="_blank"><img src={"../../Assets/hashnode.svg"} alt=""/></a>
       </div>
       <h3>Hey there, thinking of collaborating on a project with me or ask for my resume ? I’d love to hear from you!</h3>
       
@@ -22,7 +22,7 @@ export default function Contact() {
       <div className='message'>
         <input placeholder="      Write your message"></input>
       </div>
-      <a href="mailto:queentoria1@gmail.com">SEND EMAIL</a>
+      <a className='send' href="mailto:queentoria1@gmail.com">SEND EMAIL</a>
     </div>
   )
 }

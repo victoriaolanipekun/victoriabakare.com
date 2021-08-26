@@ -25,7 +25,7 @@ export default function Portfolio() {
       <div className='portfolio-two'>
         <div className='left'>
           <div className="imgContainer">
-            <img src={"../../Assets/hanqout.svg"} alt=""/>
+            <img src={"../../Assets/heiss.svg"} alt=""/>
           </div>
         </div>
         <div className='right'>
@@ -43,7 +43,7 @@ export default function Portfolio() {
       <div className='portfolio-three'>
         <div className='left'>
           <div className="imgContainer">
-            <img src={"../../Assets/hanqout.svg"} alt=""/>
+            <img src={"../../Assets/drinkard.svg"} alt=""/>
           </div>
         </div>
         <div className='right'>
@@ -61,7 +61,7 @@ export default function Portfolio() {
       <div className='portfolio-four'>
         <div className='left'>
           <div className="imgContainer">
-            <img src={"../../Assets/hanqout.svg"} alt=""/>
+            <img src={"../../Assets/snake.svg"} alt=""/>
           </div>
         </div>
         <div className='right'>
