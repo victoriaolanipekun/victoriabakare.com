@@ -6,10 +6,9 @@
   display: flex;
 
   @include mobile {
-    display: flex;
-    justify-content: center;
     flex-direction: column;
     align-items: center;
+    height: 130vh !important;
   }
 
   .left {
@@ -24,6 +23,9 @@
       margin-left: 120px;
       width: 521px;
       color: white;
+      @include mobile {
+        border: 0;
+      }
         
       h1 {
         
@@ -39,6 +41,10 @@
         font-size: 48px;
         line-height: 48px;
         color: #FFFFFF;
+
+        @include mobile {
+          left: 30px;
+        }
       }
       h3 {
         
@@ -53,6 +59,11 @@
         font-weight: 100;
         font-size: 24px;
         line-height: 36px;
+
+        @include mobile {
+          left: 30px;
+          width: 326px;
+        }
       }
       a {
         position: absolute;
@@ -75,6 +86,11 @@
         line-height: 36px;
         color: #482041;
         border: none;
+
+        @include mobile {
+          top: 930px;
+          left: 50px;
+        }
       }
     }
   }
@@ -93,6 +109,11 @@
       img {
         width: 100%;
         margin-top: 130px;
+
+        @include mobile {
+          padding-left: 30px;
+          margin-top: 10px;
+        }
       }
     }
   }
