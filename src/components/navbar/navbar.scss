@@ -10,49 +10,23 @@
   z-index: 3;
   transition: all 1s ease;
 
+  @include mobile {
+    width: 30%;
+  }
+
   .wrapper {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    
     .left-side {
-      padding: 10px 30px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      justify-content: space-between;
-    
-      .column-one {
-        display: flex;
-        align-items: center;
-        margin-left: 300px;
-        .left {
-          span {
-            margin-right: 30px;
-            font-size: 14px;
-            font-weight: bold;
-          }
-        }
+      padding: 30px 590px;
+      @include mobile {
+        padding: 30px 80px;
       }
-    
-      .mid {
-        display: flex;
-        align-items: center;
-        .logo {
-          background-repeat: no-repeat;
-          margin-top: 20px;
-          margin-left: 300px;
-        }
-      }
-      .column-three {
-        display: flex;
-        align-items: center;
-        margin-right: 300px;
-        .right {
-          span {
-            margin-left: 30px;
-            font-size: 14px;
-            font-weight: bold;
-          }
+      a .logo {
+        @include mobile {
+          width: 100%;
         }
       }
     }

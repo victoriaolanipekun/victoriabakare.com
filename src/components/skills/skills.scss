@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .skills {
   background-color: white;
   display: flex;
@@ -16,6 +18,10 @@
     font-size: 24px;
     line-height: 36px;
     color: #000000;
+
+    @include mobile {
+      top: 1200px;
+    }
   }
   .tools {
     display: flex;

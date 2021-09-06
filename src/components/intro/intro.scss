@@ -4,11 +4,12 @@
 .intro {
   background-color: #984F97;
   display: flex;
+  
 
   @include mobile {
     flex-direction: column;
     align-items: center;
-    height: 130vh !important;
+    height: 140vh !important;
   }
 
   .left {
@@ -28,7 +29,6 @@
       }
         
       h1 {
-        
         position: absolute;
         width: 322px;
         height: 55px;
@@ -44,6 +44,7 @@
 
         @include mobile {
           left: 30px;
+          font-size: 40px;
         }
       }
       h3 {
@@ -62,7 +63,8 @@
 
         @include mobile {
           left: 30px;
-          width: 326px;
+          width: 305px;
+          font-size: 20px;
         }
       }
       a {
