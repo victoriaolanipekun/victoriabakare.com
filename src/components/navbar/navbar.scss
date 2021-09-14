@@ -11,7 +11,7 @@
   transition: all 1s ease;
 
   @include mobile {
-    width: 30%;
+    width: 29%;
   }
 
   .wrapper {
@@ -27,6 +27,7 @@
       a .logo {
         @include mobile {
           width: 100%;
+          padding-left: 25px;
         }
       }
     }

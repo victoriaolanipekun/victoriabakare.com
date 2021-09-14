@@ -2,7 +2,7 @@ import './skills.scss'
 
 export default function Skills() {
   return (
-    <div className='col-md-12 skills' id='skills'>
+    <div className='skills' id='skills'>
       <h3>With experience in design, software development. Some of my skillset include:</h3>
 
       <div className='tools'>
