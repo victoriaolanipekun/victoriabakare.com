@@ -5,22 +5,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  h3 {
-    position: absolute;
-    width: 864px;
-    height: 48px;
-    left: 288px;
-    top: 821px;
 
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 24px;
-    line-height: 36px;
-    color: #000000;
+  @include mobile {
+    height: 300vh;
+  }
 
-    @include mobile {
-      top: 1200px;
+  .paragraph{
+    h3 {
+      position: absolute;
+      width: 864px;
+      height: 48px;
+      left: 288px;
+      top: 821px;
+  
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 100;
+      font-size: 24px;
+      line-height: 36px;
+      color: #000000;
+   
+      @include mobile {
+        display: none;
+      }
     }
   }
   .tools {
@@ -43,6 +50,9 @@
         color: #757575;
       }
     }
+    @include mobile {
+      display: none;
+    }
   }
   .services {
     h1 {
@@ -58,6 +68,11 @@
       line-height: 56px;
       text-align: center;
       color: #000000;
+
+      @include mobile {
+        left: -80px;
+        font-size: 36px;
+      }
     }
     h3 {
       position: absolute;
@@ -101,6 +116,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 30px;
+    @include mobile {
+      left: 52px;
+      font-size: 36px;
+      top: 1246px;
+    }
   }
   .service-list-layer {
     position: absolute;
@@ -118,7 +138,12 @@
       position: absolute;
       left: 70px;
       top: 20px;
-      
+    }
+
+    @include mobile {
+      left: 63px;
+      font-size: 36px;
+      top: 1257px;
     }
   }
   .service-list-two {
@@ -132,6 +157,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 30px;
+
+    @include mobile {
+      top: 1646px;
+      left: 52px;
+    }
   }
   .service-list-two-layer {
     position: absolute;
@@ -149,6 +179,11 @@
       left: 60px;
       top: 20px;
     }
+
+    @include mobile {
+      top: 1659px;
+      left: 63px;
+    }
   }
 
   .service-list-three {
@@ -162,6 +197,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 30px;
+
+    @include mobile {
+      top: 2046px;
+      left: 52px;
+    }
   }
   .service-list-three-layer {
     position: absolute;
@@ -179,6 +219,11 @@
       left: 60px;
       top: 20px;
     }
+
+    @include mobile {
+      top: 2059px;
+      left: 63px;
+    }
   }
   .service-list-four {
     position: absolute;
@@ -191,6 +236,11 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     margin-top: 30px;
+
+    @include mobile {
+      top: 2446px;
+      left: 52px;
+    }
   }
   .service-list-four-layer {
     position: absolute;
@@ -207,6 +257,11 @@
       position: absolute;
       left: 60px;
       top: 20px;
+    }
+
+    @include mobile {
+      top: 2459px;
+      left: 63px;
     }
   }
 }

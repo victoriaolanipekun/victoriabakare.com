@@ -3,8 +3,10 @@ import './skills.scss'
 export default function Skills() {
   return (
     <div className='skills' id='skills'>
-      <h3>With experience in design, software development. Some of my skillset include:</h3>
-
+      <div className='paragraph' id='paragraph'>
+        <h3>With experience in design, software development. Some of my skillset include:</h3>
+      </div>
+      
       <div className='tools'>
         <img className="img img-responsive" src={"../../Assets/tech.svg"} alt=""/>
       </div>
