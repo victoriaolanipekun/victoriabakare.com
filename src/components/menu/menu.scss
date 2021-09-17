@@ -13,8 +13,16 @@
   justify-content: center;
   transition: all 1s ease;
 
+  @include mobile {
+    position: absolute;
+    overflow: hidden;
+  }
+
   &.active {
     right: 0;
+    // @include mobile {
+    //   position: absolute;
+    // }
   }
 }
 
@@ -36,5 +44,9 @@ ul {
     &:hover {
       font-weight: 500;
     }
+  }
+
+  @include mobile {
+    font-size: 14px;
   }
 }

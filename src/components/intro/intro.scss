@@ -9,8 +9,8 @@
   @include mobile {
     flex-direction: column;
     align-items: center;
-    height: 160vh !important;
-    width: 385px !important;
+    height: 130vh !important;
+    // width: 385px !important;
   }
 
   .left {
@@ -30,7 +30,7 @@
       color: white;
       @include mobile {
         border: none;
-        height: 400px;
+        height: 313px;
       }
         
       h1 {
@@ -50,7 +50,7 @@
         @include mobile {
           left: 30px;
           font-size: 40px;
-          top: 160px;
+          top: 100px;
         }
       }
       h3 {
@@ -71,7 +71,7 @@
           left: 30px;
           width: 305px;
           font-size: 20px;
-          top: 240px;
+          top: 165px;
         }
       }
       a {
@@ -97,8 +97,8 @@
         border: none;
 
         @include mobile {
-          top:  870px;
-          left: 55px;
+          top:  753px;
+          left: 44px;
         }
       }
     }
@@ -107,6 +107,10 @@
   .right {
     flex: 0.53;
     overflow: hidden;
+
+    @include mobile {
+      flex: none;
+    }
 
     .imgContainer {
       height: 90%;

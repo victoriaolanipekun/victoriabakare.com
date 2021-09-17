@@ -11,7 +11,7 @@
   transition: all 1s ease;
 
   @include mobile {
-    width: 29%;
+    width: 28.5%;
   }
 
   .wrapper {
@@ -40,7 +40,7 @@
         flex-direction: column;
         justify-content: space-between;
         cursor: pointer;
-        margin-top: 60px;
+        margin-top: 45px;
         margin-right: 25px;
         span {
           width:100%;

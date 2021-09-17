@@ -7,7 +7,7 @@
   align-items: center;
 
   @include mobile {
-    height: 300vh;
+    height: 300vh !important;
   }
 
   .paragraph{
@@ -70,8 +70,8 @@
       color: #000000;
 
       @include mobile {
-        left: -80px;
-        font-size: 36px;
+        left: -90px;
+        font-size: 34px;
       }
     }
     h3 {

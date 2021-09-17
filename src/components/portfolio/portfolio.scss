@@ -1,3 +1,5 @@
+@import "../../global.scss";
+
 .portfolio {
   background-color: #ffffff;
   display: flex;
@@ -15,15 +17,31 @@
     line-height: 56px;
     text-align: center;
     color: #000000;
+
+    @include mobile {
+      top: 3000px;
+      left: -20px;
+      font-size: 34px;
+      width: 400px;
+    }
   }
   .portfolio-one {
     .left {
       position: absolute;
       width: 638.44px;
-      height: 404.52px;
+      height: 410.52px;
       left: 122px;
       top: 2000px;
       z-index: 1;
+      background-image: url(../../images/Assets/hanqout.svg);
+      background-repeat: no-repeat;
+    
+      @include mobile {
+        left: 25px;
+        top: 3167px;
+        background-image: url(../../images/hanqoutmobile.svg);
+        background-repeat: no-repeat;
+      }
     }
   
     .right {
@@ -37,6 +55,12 @@
         border: 1px solid rgba(80, 80, 90, 0.5);
         box-sizing: border-box;
         border-radius: 4px;
+
+        @include mobile {
+          left: -250px;
+          border: none;
+          top: 3285px;
+        }
         h2 {
           position: absolute;
           width: 322px;
@@ -50,6 +74,10 @@
           font-size: 32px;
           line-height: 48px;
           color: #000000;
+
+          @include mobile {
+            font-size: 28px;
+          }
         }
         h3 {
           position: absolute;
@@ -64,6 +92,10 @@
           font-size: 18px;
           line-height: 36px;
           color: #000000;
+          @include mobile {
+            width: 300px;
+            top: 157px;
+          }
         }
         .button-wrapper {
           display: flex;
@@ -72,6 +104,10 @@
           margin-top: 340px;
           left: 285px;
           width: 52%;
+          @include mobile {
+            margin-top: 387px;
+            flex-direction: column;
+          }
           a {
             width: 200px;
             height: 54px;
@@ -92,6 +128,11 @@
             line-height: 36px;
             color: #ffffff;
             border: none;
+            @include mobile {
+              margin-top: 10px;
+              margin-right: 10px;
+              font-size: 16px;
+            }
           }
         }
       }
@@ -107,6 +148,15 @@
       left: 122px;
       top: 2700px;
       z-index: 1;
+      background-image: url(../../images/Assets/heiss.svg);
+      background-repeat: no-repeat;
+    
+      @include mobile {
+        left: 25px;
+        top: 3900px;
+        background-image: url(../../images/heissmobile.svg);
+        background-repeat: no-repeat;
+      }
     }
   
     .right {
@@ -120,6 +170,11 @@
         border: 1px solid  rgba(80, 80, 90, 0.5);
         box-sizing: border-box;
         border-radius: 4px;
+        @include mobile {
+          left: -250px;
+          border: none;
+          top: 4028px;
+        }
         h2 {
           position: absolute;
           width: 322px;
@@ -133,6 +188,9 @@
           font-size: 32px;
           line-height: 48px;
           color: #000000;
+          @include mobile {
+            font-size: 28px;
+          }
         }
         h3 {
           position: absolute;
@@ -147,6 +205,10 @@
           font-size: 18px;
           line-height: 36px;
           color: #000000;
+          @include mobile {
+            width: 300px;
+            top: 157px;
+          }
         }
         .button-wrapper {
           display: flex;
@@ -155,6 +217,10 @@
           margin-top: 340px;
           left: 285px;
           width: 52%;
+          @include mobile {
+            margin-top: 387px;
+            flex-direction: column;
+          }
           a {
             width: 200px;
             height: 54px;
@@ -175,6 +241,11 @@
             line-height: 36px;
             color: #ffffff;
             border: none;
+            @include mobile {
+              margin-top: 10px;
+              margin-right: 10px;
+              font-size: 16px;
+            }
           }
         }
       }
@@ -188,6 +259,15 @@
       left: 122px;
       top: 3400px;
       z-index: 1;
+      background-image: url(../../images/Assets/drinkard.svg);
+      background-repeat: no-repeat;
+    
+      @include mobile {
+        left: 25px;
+        top: 4600px;
+        background-image: url(../../images/drinkardmobile.svg);
+        background-repeat: no-repeat;
+      }
     }
   
     .right {
@@ -201,6 +281,11 @@
         border: 1px solid  rgba(80, 80, 90, 0.5);
         box-sizing: border-box;
         border-radius: 4px;
+        @include mobile {
+          left: -250px;
+          border: none;
+          top: 4128px;
+        }
         h2 {
           position: absolute;
           width: 322px;
@@ -214,6 +299,9 @@
           font-size: 32px;
           line-height: 48px;
           color: #000000;
+          @include mobile {
+            font-size: 28px;
+          }
         }
         h3 {
           position: absolute;
@@ -228,6 +316,10 @@
           font-size: 18px;
           line-height: 36px;
           color: #000000;
+          @include mobile {
+            width: 300px;
+            top: 257px;
+          }
         }
         .button-wrapper {
           display: flex;
@@ -236,6 +328,10 @@
           margin-top: 340px;
           left: 285px;
           width: 52%;
+          @include mobile {
+            margin-top: 487px;
+            flex-direction: column;
+          }
           a {
             width: 200px;
             height: 54px;
@@ -256,6 +352,11 @@
             line-height: 36px;
             color: #ffffff;
             border: none;
+            @include mobile {
+              margin-top: 10px;
+              margin-right: 10px;
+              font-size: 16px;
+            }
           }
         }
       }
