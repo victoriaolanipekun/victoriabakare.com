@@ -3,7 +3,7 @@
 .portfolio {
   background-color: #ffffff;
   display: flex;
-  height: 400vh !important;
+  height: 450vh !important;
   h1 {
     position: absolute;
     width: 539px;
@@ -105,7 +105,7 @@
           left: 285px;
           width: 52%;
           @include mobile {
-            margin-top: 387px;
+            margin-top: 420px;
             flex-direction: column;
           }
           a {
@@ -153,7 +153,7 @@
     
       @include mobile {
         left: 25px;
-        top: 3900px;
+        top: 3933px;
         background-image: url(../../images/heissmobile.svg);
         background-repeat: no-repeat;
       }
@@ -173,7 +173,7 @@
         @include mobile {
           left: -250px;
           border: none;
-          top: 4028px;
+          top: 4061px;
         }
         h2 {
           position: absolute;
@@ -264,7 +264,7 @@
     
       @include mobile {
         left: 25px;
-        top: 4600px;
+        top: 4678px;
         background-image: url(../../images/drinkardmobile.svg);
         background-repeat: no-repeat;
       }
@@ -284,7 +284,7 @@
         @include mobile {
           left: -250px;
           border: none;
-          top: 4128px;
+          top: 4762px;
         }
         h2 {
           position: absolute;
@@ -301,6 +301,7 @@
           color: #000000;
           @include mobile {
             font-size: 28px;
+            top: 138px;
           }
         }
         h3 {
@@ -318,7 +319,7 @@
           color: #000000;
           @include mobile {
             width: 300px;
-            top: 257px;
+            top: 191px;
           }
         }
         .button-wrapper {
@@ -329,8 +330,8 @@
           left: 285px;
           width: 52%;
           @include mobile {
-            margin-top: 487px;
             flex-direction: column;
+            margin-top: 420px;
           }
           a {
             width: 200px;
@@ -371,6 +372,15 @@
       left: 122px;
       top: 4100px;
       z-index: 1;
+      background-image: url(../../images/Assets/snake.svg);
+      background-repeat: no-repeat;
+    
+      @include mobile {
+        left: 25px;
+        top: 5415px;
+        background-image: url(../../images/snakemobile.svg);
+        background-repeat: no-repeat;
+      }
     }
   
     .right {
@@ -384,6 +394,12 @@
         border: 1px solid  rgba(80, 80, 90, 0.5);
         box-sizing: border-box;
         border-radius: 4px;
+        @include mobile {
+          left: -250px;
+          border: none;
+          top: 5540px;
+        }
+        
         h2 {
           position: absolute;
           width: 322px;
@@ -411,6 +427,10 @@
           font-size: 18px;
           line-height: 36px;
           color: #000000;
+          @include mobile {
+            width: 300px;
+            top: 152px;
+          }
         }
         .button-wrapper {
           display: flex;
@@ -419,6 +439,10 @@
           margin-top: 340px;
           left: 285px;
           width: 52%;
+          @include mobile {
+            flex-direction: column;
+            margin-top: 420px;
+          }
           a {
             width: 200px;
             height: 54px;
@@ -439,6 +463,11 @@
             line-height: 36px;
             color: #ffffff;
             border: none;
+            @include mobile {
+              margin-top: 10px;
+              margin-right: 10px;
+              font-size: 16px;
+            }
           }
         }
       }
