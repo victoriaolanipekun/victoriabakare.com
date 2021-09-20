@@ -1,6 +1,10 @@
+@import "../../global.scss";
 .contact {
   background-color: #984F97;
-  height: 100vh !important;
+  height: 128vh !important;
+  @include mobile {
+    height: 128vh;
+  }
 
   h1 {
     position: absolute;
@@ -15,6 +19,10 @@
     line-height: 56px;
     text-align: center;
     color: #FFFFFF;
+    @include mobile {
+      width: 100px;
+      left: 100px;
+    }
   }
 
   .imgContainer {
@@ -25,6 +33,9 @@
     display: flex;
     margin-top: 200px;
     justify-content: space-evenly;
+    @include mobile {
+      left: 30px;
+    }
   }
 
   h3 {
@@ -40,6 +51,10 @@
     line-height: 36px;
     text-align: center;
     color: #FFFFFF;
+    @include mobile {
+      width: 323px;
+      left: 30px;
+    }
   }
 
   .first-name {
@@ -48,11 +63,15 @@
       width: 525px;
       height: 52.88px;
       left: 458px;
-      margin-top: 390px;
+      margin-top: 400px;
       font-size: 18px;
       background: #FFFFFF;
       border-radius: 4px;
       border: none;
+      @include mobile {
+        width: 313px;
+        left: 30px;
+      }
     }
   }
   .email {
@@ -61,11 +80,15 @@
       width: 525px;
       height: 52.88px;
       left: 458px;
-      margin-top: 460px;
+      margin-top: 470px;
       font-size: 18px;
       background: #FFFFFF;
       border-radius: 4px;
       border: none;
+      @include mobile {
+        width: 313px;
+        left: 30px;
+      }
     }
   }
   .message {
@@ -74,11 +97,15 @@
       width: 525px;
       height: 128.54px;
       left: 458px;
-      margin-top: 530px;
+      margin-top: 540px;
       font-size: 18px;
       background: #FFFFFF;
       border-radius: 4px;
       border: none;
+      @include mobile {
+        width: 313px;
+        left: 30px;
+      }
     }
   }
   
@@ -87,7 +114,7 @@
     width: 525px;
     height: 52.88px;
     left: 458px;
-    margin-top: 680px;
+    margin-top: 690px;
     font-size: 18px;
     font-weight: bold;
     background: #FFFF00;
@@ -99,5 +126,9 @@
     display: flex;
     justify-content: center;
     color: #482041;
+    @include mobile {
+      width: 313px;
+      left: 30px;
+    }
   }
 }

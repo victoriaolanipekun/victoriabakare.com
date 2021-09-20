@@ -11,7 +11,7 @@ export default function Contact() {
       <a href="https://github.com/victoriaolanipekun" rel="noreferrer" target="_blank"><img src={"../../Assets/github.svg"} alt=""/></a>
       <a href="https://hashnode.com/@TheCodeChamp" rel="noreferrer" target="_blank"><img src={"../../Assets/hashnode.svg"} alt=""/></a>
       </div>
-      <h3>Hey there, thinking of collaborating on a project with me or ask for my resume ? I’d love to hear from you!</h3>
+      <h3>Hey there, thinking of collaborating on a project with me or ask for my resume? I’d love to hear from you!</h3>
       
       <div className='first-name'>
         <input className='first-name' placeholder="      Your first-name"></input>

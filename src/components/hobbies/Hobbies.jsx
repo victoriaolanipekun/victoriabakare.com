@@ -3,7 +3,7 @@ import './hobbies.scss'
 export default function Hobbies() {
   return (
     <div className='hobbies' id='hobbies'>
-      <h1>Check out some of the things I enjoy doing</h1>
+      <h1>Some of the things I enjoy doing</h1>
       <div className='hobbies-one'>
         <div className='right'>
           <div className="wrapper">

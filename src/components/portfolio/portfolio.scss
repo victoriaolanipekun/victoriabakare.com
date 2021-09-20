@@ -3,7 +3,7 @@
 .portfolio {
   background-color: #ffffff;
   display: flex;
-  height: 450vh !important;
+  height: 400vh !important;
   h1 {
     position: absolute;
     width: 539px;
@@ -20,9 +20,9 @@
 
     @include mobile {
       top: 3000px;
-      left: -20px;
+      left: -15px;
       font-size: 34px;
-      width: 400px;
+      width: 375px;
     }
   }
   .portfolio-one {
@@ -37,7 +37,8 @@
       background-repeat: no-repeat;
     
       @include mobile {
-        left: 25px;
+        width: 100%;
+        left: 0px;
         top: 3167px;
         background-image: url(../../images/hanqoutmobile.svg);
         background-repeat: no-repeat;
@@ -57,6 +58,7 @@
         border-radius: 4px;
 
         @include mobile {
+          width: 100%;
           left: -250px;
           border: none;
           top: 3285px;
@@ -152,7 +154,8 @@
       background-repeat: no-repeat;
     
       @include mobile {
-        left: 25px;
+        width: 100%;
+        left: 0px;
         top: 3933px;
         background-image: url(../../images/heissmobile.svg);
         background-repeat: no-repeat;
@@ -171,6 +174,7 @@
         box-sizing: border-box;
         border-radius: 4px;
         @include mobile {
+          width: 100%;
           left: -250px;
           border: none;
           top: 4061px;
@@ -263,7 +267,8 @@
       background-repeat: no-repeat;
     
       @include mobile {
-        left: 25px;
+        width: 100%;
+        left: 0px;
         top: 4678px;
         background-image: url(../../images/drinkardmobile.svg);
         background-repeat: no-repeat;
@@ -282,6 +287,7 @@
         box-sizing: border-box;
         border-radius: 4px;
         @include mobile {
+          width: 100%;
           left: -250px;
           border: none;
           top: 4762px;
@@ -376,7 +382,8 @@
       background-repeat: no-repeat;
     
       @include mobile {
-        left: 25px;
+        width: 100%;
+        left: 0px;
         top: 5415px;
         background-image: url(../../images/snakemobile.svg);
         background-repeat: no-repeat;
@@ -395,6 +402,7 @@
         box-sizing: border-box;
         border-radius: 4px;
         @include mobile {
+          width: 100%;
           left: -250px;
           border: none;
           top: 5540px;

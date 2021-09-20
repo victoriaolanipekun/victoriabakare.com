@@ -12,7 +12,7 @@ export default function intro() {
       </div>
       <div className='right'>
         <div className="imgContainer">
-          <img src={"../../Assets/interest.svg"} alt=""/>
+          <img src={"../../Assets/interest.png"} alt=""/>
         </div>
       </div>
     </div>

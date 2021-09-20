@@ -21,7 +21,7 @@ export default function Portfolio() {
         </div>
       </div>
       
-      <div className='portfolio-two'>
+       <div className='portfolio-two'>
         <div className='left'>
           <div className="imgContainer">
           </div>
@@ -55,7 +55,7 @@ export default function Portfolio() {
         </div>
       </div>
 
-      <div className='portfolio-four'>
+      <div className='portfolio-four'> 
         <div className='left'>
           <div className="imgContainer">
           </div>
@@ -71,6 +71,6 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-    </div>
+  </div> 
   )
 }

@@ -70,7 +70,8 @@
       color: #000000;
 
       @include mobile {
-        left: -90px;
+        width: 100%;
+        left: 0px;
         font-size: 34px;
       }
     }

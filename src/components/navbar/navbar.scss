@@ -7,12 +7,12 @@
   color: $mainColor !important;
   position: fixed;
   top: 0;
-  z-index: 3;
+  z-index: 2;
   transition: all 1s ease;
 
-  @include mobile {
-    width: 28.5%;
-  }
+  // @include mobile {
+  //   width: 28.5%;
+  // }
 
   .wrapper {
     width: 100%;

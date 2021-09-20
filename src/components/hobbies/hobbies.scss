@@ -1,7 +1,12 @@
+@import "../../global.scss";
+
 .hobbies {
   background-color: #ffffff;
   display: flex;
-  height: 110vh !important;
+  height: 100vh !important;
+  @include mobile {
+    height: 337vh !important;
+  }
   h1 {
     position: absolute;
     width: 539px;
@@ -15,6 +20,12 @@
     line-height: 56px;
     text-align: center;
     color: #000000;
+    @include mobile {
+      top: 6252px;
+      left: 8px;
+      font-size: 34px;
+      width: 350px;
+    }
   }
   .hobbies-one {
   
@@ -31,6 +42,13 @@
         border: 1px solid rgba(80, 80, 90, 0.5);
         box-sizing: border-box;
         border-radius: 4px;
+        @include mobile {
+          top: 6420px;
+          left: -38px;
+          height: 929px;
+          width: 320px;
+          margin-left: 68px;
+        }
         h2 {
           position: absolute;
           width: 322px;
@@ -58,6 +76,10 @@
           font-size: 18px;
           line-height: 36px;
           color: #000000;
+          @include mobile {
+            width: 290px;
+            top: 154px;
+          }
         }
         .button-wrapper {
           display: flex;
@@ -66,8 +88,12 @@
           margin-top: 340px;
           left: 285px;
           width: 52%;
-          left: 420px;
+          left: 425px;
           margin-top: 305px;
+          @include mobile {
+            margin-top: 363px;
+            left: 330px;
+          }
           a {
             width: 200px;
             height: 54px;
@@ -105,6 +131,10 @@
           line-height: 36px;
           text-align: center;
           color: #000000;
+          @include mobile {
+            top: -14px;
+            left: -271px;
+          }
 
           h2 {
             position: absolute;
@@ -120,6 +150,10 @@
             line-height: 48px;
             text-align: center;
             color: #000000;
+            @include mobile {
+              font-size: 28px;
+              left: 277px;
+            }
           }
         }
         .line {
@@ -131,6 +165,13 @@
 
           border: 1px solid  rgba(0, 0, 0, 0.2);
           transform: rotate(90deg);
+          @include mobile {
+            width: 317px;
+            height: 0px;
+            left: 0px;
+            top: 460px;
+            transform: none;
+          }
         }
         .wrapper-two {
           position: absolute;
@@ -146,6 +187,10 @@
           line-height: 36px;
           text-align: center;
           color: #000000;
+          @include mobile {
+            top: 400px;
+            left: -280px;
+          }
 
           h2 {
             position: absolute;
@@ -161,7 +206,18 @@
             line-height: 48px;
             text-align: center;
             color: #000000;
+            @include mobile {
+              left: 285px;
+            }
           }
+
+          h3 {
+            @include mobile {
+              width: 286px;
+              margin-left: 10px;
+            }
+          }
+
         }
       }
     }
