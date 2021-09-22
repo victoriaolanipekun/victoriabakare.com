@@ -30,19 +30,16 @@
       }
 
       @include desktop {
-        top: 1150px;
-        left: 535px;
+        display: none;
       }
     }
   }
   .tools {
     display: flex;
     flex-wrap: wrap;
-    // mix-blend-mode: luminosity;
     margin-top: 200px;
     
     .imgContainer {
-      // width: 90px;
       img {
         width: 30px;
 
@@ -59,7 +56,7 @@
       display: none;
     }
     @include desktop {
-      margin-top: 268px;
+      display: none;
     }
   }
   .services {
@@ -81,6 +78,9 @@
         width: 100%;
         left: 0px;
         font-size: 34px;
+      }
+      @include desktop {
+        left: 651px;
       }
     }
     h3 {
@@ -130,6 +130,9 @@
       font-size: 36px;
       top: 1246px;
     }
+    @include desktop {
+      left: 351px;
+    }
   }
   .service-list-layer {
     position: absolute;
@@ -154,6 +157,9 @@
       font-size: 36px;
       top: 1257px;
     }
+    @include desktop {
+      left: 362px;
+    }
   }
   .service-list-two {
     position: absolute;
@@ -170,6 +176,9 @@
     @include mobile {
       top: 1646px;
       left: 52px;
+    }
+    @include desktop {
+      left: 660px;
     }
   }
   .service-list-two-layer {
@@ -193,6 +202,9 @@
       top: 1659px;
       left: 63px;
     }
+    @include desktop {
+      left: 674px;
+    }
   }
 
   .service-list-three {
@@ -210,6 +222,9 @@
     @include mobile {
       top: 2046px;
       left: 52px;
+    }
+    @include desktop {
+      left: 974px;
     }
   }
   .service-list-three-layer {
@@ -233,6 +248,9 @@
       top: 2059px;
       left: 63px;
     }
+    @include desktop {
+      left: 987px;
+    }
   }
   .service-list-four {
     position: absolute;
@@ -249,6 +267,9 @@
     @include mobile {
       top: 2446px;
       left: 52px;
+    }
+    @include desktop {
+      left: 1286px;
     }
   }
   .service-list-four-layer {
@@ -271,6 +292,9 @@
     @include mobile {
       top: 2459px;
       left: 63px;
+    }
+    @include desktop {
+      left: 1300px;
     }
   }
 }
