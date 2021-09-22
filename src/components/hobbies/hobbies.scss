@@ -26,6 +26,9 @@
       font-size: 34px;
       width: 350px;
     }
+    @include desktop {
+      left: 651px;
+    }
   }
   .hobbies-one {
   
@@ -48,6 +51,9 @@
           height: 929px;
           width: 320px;
           margin-left: 68px;
+        }
+        @include desktop {
+          left: 350px;
         }
         h2 {
           position: absolute;
