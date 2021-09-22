@@ -10,10 +10,7 @@
   z-index: 2;
   transition: all 1s ease;
 
-  // @include mobile {
-  //   width: 28.5%;
-  // }
-
+  
   .wrapper {
     width: 100%;
     display: flex;
@@ -23,6 +20,9 @@
       padding: 30px 590px;
       @include mobile {
         padding: 30px 80px;
+      }
+      @include desktop {
+        padding: 30px 824px;
       }
       a .logo {
         @include mobile {

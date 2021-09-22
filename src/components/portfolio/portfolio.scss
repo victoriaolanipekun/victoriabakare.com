@@ -4,6 +4,9 @@
   background-color: #ffffff;
   display: flex;
   height: 400vh !important;
+  @include desktop {
+    height: 235vh !important;
+  }
   h1 {
     position: absolute;
     width: 539px;
@@ -20,9 +23,12 @@
 
     @include mobile {
       top: 3000px;
-      left: -15px;
+      left: 0px;
       font-size: 34px;
       width: 375px;
+    }
+    @include desktop {
+      left: 651px;
     }
   }
   .portfolio-one {
@@ -43,6 +49,9 @@
         background-image: url(../../images/hanqoutmobile.svg);
         background-repeat: no-repeat;
       }
+      @include desktop {
+        left: 352px;
+      }
     }
   
     .right {
@@ -62,6 +71,9 @@
           left: -250px;
           border: none;
           top: 3285px;
+        }
+        @include desktop {
+          left: 764px;
         }
         h2 {
           position: absolute;

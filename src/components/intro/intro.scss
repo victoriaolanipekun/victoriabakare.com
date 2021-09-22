@@ -9,8 +9,7 @@
   @include mobile {
     flex-direction: column;
     align-items: center;
-    height: 130vh !important;
-    // width: 385px !important;
+    height: 117vh !important;
   }
 
   .left {
@@ -35,6 +34,10 @@
         margin-left: 0px;
         padding-left: 0px;
       }
+      @include desktop {
+        height: 652px;
+        width: 747px;
+      }
         
       h1 {
         position: absolute;
@@ -54,6 +57,9 @@
           left: 30px;
           font-size: 40px;
           top: 100px;
+        }
+        @include desktop {
+          top: 265px;
         }
       }
       h3 {
@@ -75,6 +81,10 @@
           width: 305px;
           font-size: 20px;
           top: 165px;
+        }
+        @include desktop {
+          width: 677px;
+          top: 335px;
         }
       }
       a {
@@ -100,8 +110,11 @@
         border: none;
 
         @include mobile {
-          top:  753px;
-          left: 44px;
+          top:  758px;
+          left: 54px;
+        }
+        @include desktop {
+          top: 550px;
         }
       }
     }

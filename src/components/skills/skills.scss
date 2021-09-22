@@ -28,6 +28,11 @@
       @include mobile {
         display: none;
       }
+
+      @include desktop {
+        top: 1150px;
+        left: 535px;
+      }
     }
   }
   .tools {
@@ -52,6 +57,9 @@
     }
     @include mobile {
       display: none;
+    }
+    @include desktop {
+      margin-top: 268px;
     }
   }
   .services {

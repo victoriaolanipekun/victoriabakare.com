@@ -1,9 +1,9 @@
 @import "../../global.scss";
 .contact {
   background-color: #984F97;
-  height: 128vh !important;
-  @include mobile {
-    height: 128vh;
+  height: 100vh !important;
+  @include desktop {
+    height: 78vh !important;
   }
 
   h1 {
@@ -111,7 +111,7 @@
   
   .send {
     position: absolute;
-    width: 525px;
+    width: 530px;
     height: 52.88px;
     left: 458px;
     margin-top: 690px;
@@ -127,7 +127,7 @@
     justify-content: center;
     color: #482041;
     @include mobile {
-      width: 313px;
+      width: 318px;
       left: 30px;
     }
   }
