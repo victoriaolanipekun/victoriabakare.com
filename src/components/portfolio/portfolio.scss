@@ -172,6 +172,9 @@
         background-image: url(../../images/heissmobile.svg);
         background-repeat: no-repeat;
       }
+      @include desktop {
+        left: 352px;
+      }
     }
   
     .right {
@@ -190,6 +193,9 @@
           left: -250px;
           border: none;
           top: 4061px;
+        }
+        @include desktop {
+          left: 764px;
         }
         h2 {
           position: absolute;
@@ -285,6 +291,9 @@
         background-image: url(../../images/drinkardmobile.svg);
         background-repeat: no-repeat;
       }
+      @include desktop {
+        left: 352px;
+      }
     }
   
     .right {
@@ -303,6 +312,9 @@
           left: -250px;
           border: none;
           top: 4762px;
+        }
+        @include desktop {
+          left: 764px;
         }
         h2 {
           position: absolute;
@@ -400,6 +412,9 @@
         background-image: url(../../images/snakemobile.svg);
         background-repeat: no-repeat;
       }
+      @include desktop {
+        left: 352px;
+      }
     }
   
     .right {
@@ -418,6 +433,9 @@
           left: -250px;
           border: none;
           top: 5540px;
+        }
+        @include desktop {
+          left: 764px;
         }
         
         h2 {
